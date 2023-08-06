@@ -109,6 +109,7 @@
   }
   /* That function switches the rainbow messages status */
   function switchRainbow() {
+    let date = new Date();
     rainbowStatus = !rainbowStatus;
     if (rainbowStatus) {
       console.log(
